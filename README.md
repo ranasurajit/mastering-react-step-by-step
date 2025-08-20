@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/React-From%20Scratch-blue?logo=react&logoColor=white&style=for-the-badge" />
 </p>
 
