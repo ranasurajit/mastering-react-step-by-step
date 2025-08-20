@@ -2,6 +2,10 @@
   <img src="https://img.shields.io/badge/React-From%20Scratch-blue?logo=react&logoColor=white&style=for-the-badge" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c4afdb35-5249-48a5-8d69-f32bf8bbcead" />
+</p>
+
 📚 This repository is my personal journey of learning React from the ground up. It’s a living collection of:
 
 🧩 Concept Illustrations – step-by-step breakdowns of React fundamentals
