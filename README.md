@@ -8,15 +8,16 @@
 
 📚 This repository is my personal journey of learning React from the ground up. It’s a living collection of:
 
-🧩 Concept Illustrations – step-by-step breakdowns of React fundamentals
 
-💻 Code Samples – hands-on examples for each concept
+&nbsp;&nbsp;&nbsp;&nbsp; 🧩 Concept Illustrations – step-by-step breakdowns of React fundamentals
 
-📒 Notes & Explanations – distilled learnings for quick revision
+&nbsp;&nbsp;&nbsp;&nbsp; 💻 Code Samples – hands-on examples for each concept
 
-🛠️ Artifacts & Mini-Projects – practical applications of concepts
+&nbsp;&nbsp;&nbsp;&nbsp; 📒 Notes & Explanations – distilled learnings for quick revision
 
-🌱 Growth Log – documenting my progress as I evolve into a React specialist
+&nbsp;&nbsp;&nbsp;&nbsp; 🛠️ Artifacts & Mini-Projects – practical applications of concepts
+
+&nbsp;&nbsp;&nbsp;&nbsp; 🌱 Growth Log – documenting my progress as I evolve into a React specialist
 
 Whether you’re a beginner exploring React or someone revisiting the basics, this repo is crafted to serve as a playground of learning and practice.
 
