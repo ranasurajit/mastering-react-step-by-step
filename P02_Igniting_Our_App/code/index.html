@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello React!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Hello World from HTML!</h1>
+    </div>
+    <div id="root">
+        <h1>Header Pre-Loading React!</h1>
+    </div>
+    <div id="nested-root"></div>
+    <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML = 'Hello World from JavaScript!';
+        const contentDiv = document.getElementById('content');
+        contentDiv.appendChild(heading);
+    </script>
+    <script src="./App.js" type="module"></script>
+</body>
+</html>
