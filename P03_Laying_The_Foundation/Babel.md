@@ -39,22 +39,7 @@ Instead, **Babel** transpiles JSX into plain JavaScript that browsers can execut
 
 ## 📊 Transpilation Workflow Diagram
 
-JSX Code (Developer Syntax)
-│
-▼
-Babel Transpiler
-│
-▼
-React.createElement(...)
-│
-▼
-React Element (JS Object)
-│
-▼
-ReactDOM Renderer
-│
-▼
-Browser DOM (Visible UI)
+<img width="409" height="415" alt="Image" src="https://github.com/user-attachments/assets/c6710607-d7b8-4047-95ab-6eed21d3c69f" />
 
 ---
 
