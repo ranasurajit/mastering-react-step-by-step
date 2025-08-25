@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-logo {
+    display: inline-block;
+    /* So it can have dimensions */
+    width: 180px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+    background-image: url('./assets/snoofy_logo_trans.png');
+    background-size: contain;
+    /* Fit the image inside */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 0;
+}
+
+.nav-items>ul {
+    display: flex;
+    padding: 0 20px;
+    list-style-type: none;
+    font-size: 25px;
+
+    li {
+        justify-content: space-between;
+        margin-right: 3rem;
+    }
+}
+
+.search {
+    padding: 10px;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 2px;
+}
+
+.restaurant-card {
+    width: 200px;
+    border: 1px solid transparent;
+    padding: 5px;
+    background-color: #dedede;
+    cursor: pointer;
+}
+
+.restaurant-card:hover {
+    border: 1px solid black;
+    background-color: #d4d4d4;
+}
+
+.restaurant-image {
+    width: 200px;
+    height: 220px;
+    background-size: contain;
+    /* Fit the image inside */
+    background-repeat: no-repeat;
+    background-position: center;
+}
