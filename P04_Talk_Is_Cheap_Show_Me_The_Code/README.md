@@ -27,6 +27,10 @@
     - Contact
 ```
 
+### App Structure Diagram
+
+<img width="256" height="384" alt="Image" src="https://github.com/user-attachments/assets/3e9ec796-2d46-4e89-b2f3-e4d00db3be84" />
+
 ## Dynamically Passing Parameters/Arguments to the Components
 
 ### React Props
