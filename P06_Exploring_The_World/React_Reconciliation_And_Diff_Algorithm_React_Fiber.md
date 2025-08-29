@@ -116,6 +116,8 @@ React Fiber (introduced in React 16) is a reimplementation of the reconciliation
 [ Real DOM Updated ]
 ```
 
+<img width="990" height="390" alt="Image" src="https://github.com/user-attachments/assets/5ee8af45-7d68-42fa-af75-922a768d259b" />
+
 ---
 
 ## Key Takeaways
