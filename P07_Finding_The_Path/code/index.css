@@ -1,0 +1,138 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-logo {
+    display: inline-block;
+    /* So it can have dimensions */
+    width: 180px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+    background-image: url('./assets/snoofy_logo_trans.png');
+    background-size: contain;
+    /* Fit the image inside */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 0;
+}
+
+.nav-items>ul {
+    display: flex;
+    padding: 0 20px;
+    list-style-type: none;
+    font-size: 25px;
+
+    li {
+        justify-content: space-between;
+        margin-right: 3rem;
+    }
+}
+
+.search {
+    padding: 10px;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 2px;
+}
+
+.restaurant-card-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.restaurant-card {
+    width: 200px;
+    border: 1px solid transparent;
+    padding: 5px;
+    background-color: #dedede;
+    min-height: 500px;
+}
+
+.restaurant-card:hover {
+    border: 1px solid black;
+    background-color: #d4d4d4;
+}
+
+.restaurant-image {
+    width: 200px;
+    height: 220px;
+    background-size: contain;
+    /* Fit the image inside */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.filter {
+    display: flex;
+}
+
+.btn-filter {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 2px;
+    margin-top: 45px;
+}
+
+.shimmer-card {
+    width: 200px;
+    min-height: 400px;
+    border: 1px solid transparent;
+    padding: 5px;
+    background-color: #dedede;
+    cursor: pointer;
+}
+
+.btn-login {
+    color: #fff;
+    background-color: #fe6128;
+    height: 45px;
+    width: 100px;
+    margin: -8px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.btn-search-restaurants {
+    color: #fff;
+    background-color: #fe6128;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.btn-filter {
+    color: #fff;
+    background-color: #fe6128;
+    border: 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.search-box {
+    border: 2px solid #fe6128;
+    width: 410px;
+    height: 24px;
+    font-size: 16px;
+    color: #fe6128;
+}
