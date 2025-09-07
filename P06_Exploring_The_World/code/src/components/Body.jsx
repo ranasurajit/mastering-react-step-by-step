@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import RestaurantCard from './RestaurantCard';
 import Shimmer from './Shimmer';
+import { SWIGGY_GET_URL } from '../utils/constants';
 
 const Body = () => {
     console.log('Re-rendered Body');
@@ -21,7 +22,7 @@ const Body = () => {
     }, []);
 
     const fetchData = async () => {
-        const data = await fetch('https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9708217&lng=77.7683887&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING');
+        const data = await fetch(SWIGGY_GET_URL);
         const json = await data.json();
         const restaurantList = json?.data?.cards?.[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
         setListOfRestaurants(restaurantList);
