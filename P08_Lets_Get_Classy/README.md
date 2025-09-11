@@ -130,6 +130,7 @@ class MyComponent extends React.Component {
 - 9. Parent componentDidMount
 
 ## React Life Cycle Methods Diagram
+<img width="1250" height="582" alt="Image" src="https://github.com/user-attachments/assets/da1b9b39-8bac-4ac1-9c53-66e19690c213" />
 Refer Link: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram
 
 - React Component Life Cycle has three stages
