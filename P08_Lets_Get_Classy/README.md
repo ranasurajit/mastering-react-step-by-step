@@ -116,18 +116,18 @@ class MyComponent extends React.Component {
     6. Parent componentDidMount
 
 **With Multiple Children**
-        --------------------------  Render Phase Started ------------------------
-    1. Parent Constructor
-    2. Parent Rendered
-        3. Child1 Constructor
-        4. Child1 Rendered
-        5. Child2 Constructor
-        6. Child2 Rendered
-        --------------------------  Commit Phase Started ------------------------
-        -------- DOM is updated in batches - to optimize commit and DOM manipulation ------
-        7. Child1 componentDidMount
-        8. Child2 componentDidMount
-    9. Parent componentDidMount
+- --------------------------  Render Phase Started ------------------------
+- 1. Parent Constructor
+- 2. Parent Rendered
+    - 3. Child1 Constructor
+    - 4. Child1 Rendered
+    - 5. Child2 Constructor
+    - 6. Child2 Rendered
+    - --------------------------  Commit Phase Started ------------------------
+    - -------- DOM is updated in batches - to optimize commit and DOM manipulation ------
+    - 7. Child1 componentDidMount
+    - 8. Child2 componentDidMount
+- 9. Parent componentDidMount
 
 ## React Life Cycle Methods Diagram
 Refer Link: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram
@@ -193,3 +193,4 @@ Refer Link: https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram
         };
     }, []);
 ```
+
