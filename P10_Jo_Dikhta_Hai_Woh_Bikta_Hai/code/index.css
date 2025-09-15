@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+.app-logo {
+    display: inline-block;
+    /* So it can have dimensions */
+    width: 180px;
+    /* Adjust size as needed */
+    height: 60px;
+    /* Adjust size as needed */
+    background-image: url('./assets/snoofy_logo_trans.png');
+    background-size: contain;
+    /* Fit the image inside */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px 0;
+}
